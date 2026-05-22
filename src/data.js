@@ -47,6 +47,35 @@ export const navLinks = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
   { name: "Book", href: "#book" },
+  { name: "Gallery", href: "#gallery" },
   { name: "Reviews", href: "#reviews" },
   { name: "Contact", href: "#contact" },
+]
+
+// Add this after the existing book data
+export const historicalPhotos = [
+  {
+    id: 1,
+    src: "/images/historical1.jpg",
+    alt: "FRANK JAMES & COLE YOUNGER WILD WEST SHOW",
+    caption: "FRANK JAMES & COLE YOUNGER WILD WEST SHOW — Pikeville, Ky 1903"
+  },
+  {
+    id: 2,
+    src: "/images/historical2.jpg",
+    alt: "Will Arch Williams historical photo",
+    caption: "This photo was probably taken about the time Will Arch Williams traveled to Huntington on behalf of the United Mine Workers to secure funding for observation of the Baldwin-Felts Headquarters prior to the confrontation at Matewan"
+  },
+  {
+    id: 3,
+    src: "/images/historical3.jpg",
+    alt: "Historical photograph",
+    caption: "Historical photograph from the era"
+  },
+  {
+    id: 4,
+    src: "/images/historical4.jpg",
+    alt: "Historical photograph",
+    caption: "Historical photograph from the era"
+  }
 ]
